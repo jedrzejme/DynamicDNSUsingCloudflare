@@ -37,6 +37,9 @@
 ## Purpose
 Assigning domain to changing IP address. Changing IP address is commonly occurring at home.
 
+## To do
+* Combine autorun.py and main.py to one file
+
 ## Other informations
 This project is not created by Cloudflare Inc., but it uses Cloudflare Inc. API to edit DNS zones.
 
