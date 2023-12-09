@@ -26,6 +26,8 @@
 **How to use it?** Firstly, you need to install [Python](https://www.python.org/downloads/). After that you need to edit config file (paste API key, zone ID, and define other variables whoever you want), then just run python file called "autorun.py" or "main.py" depending on your needs. If you want to run it automatically every now and then - run "autorun.py", if you want to just run it one time - run "main.py".
 
 **What did I use?**
+* [Python libraries](/requirements.txt)
+* [Cloudflare API](https://developers.cloudflare.com/api/)
 * [Coding](https://code.visualstudio.com/)
 * [Git management](https://desktop.github.com/)
 
