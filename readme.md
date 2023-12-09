@@ -17,9 +17,6 @@
     <a href = 'https://github.com/jedrzejme/DynamicDNSUsingCloudflare/pulls'>
         <img src = 'https://img.shields.io/github/issues-pr/jedrzejme/DynamicDNSUsingCloudflare'/>
     </a>
-    <a href = 'https://github.com/jedrzejme/DynamicDNSUsingCloudflare/releases'>
-        <img src = 'https://img.shields.io/github/v/release/jedrzejme/DynamicDNSUsingCloudflare?include_prereleases&label=Latest%20Release'/>
-    </a>
 </div>
 
 <br>
