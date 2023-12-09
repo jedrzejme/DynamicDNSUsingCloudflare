@@ -23,7 +23,7 @@
 
 **What is this?** Simple script written in python that allows you to assign domain to changing IP address.
 
-**How to use it?** Firstly, you need to install [Python](https://www.python.org/downloads/). After that you need to edit config file (paste API key, zone ID, and define other variables whoever you want), then just run python file called "autorun.py" or "main.py" depending on your needs. If you want to run it automatically every now and then - set "autorun" to "True" in "config.ini", if you want to just run it one time - set "autorun" to "False" in "config.ini".
+**How to use it?** Firstly, you need to install [Python](https://www.python.org/downloads/). After that you need to edit config file (paste API key, zone ID, and define other variables whoever you want), then just run python file called "main.py". If you want to run it automatically every now and then - set "autorun" to "True" in "config.ini", if you want to just run it one time - set "autorun" to "False" in "config.ini".
 
 **What did I use?**
 * [Python libraries](/requirements.txt)
