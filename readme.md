@@ -28,6 +28,7 @@
 **What did I use?**
 * [Python libraries](/requirements.txt)
 * [Cloudflare API](https://developers.cloudflare.com/api/)
+* [Getting IP Address](https://www.ipify.org/)
 * [Coding](https://code.visualstudio.com/)
 * [Git management](https://desktop.github.com/)
 
