@@ -1,8 +1,8 @@
 <h1 align = 'center'>
     <img 
         src = '/assets/icon.png' 
-        height = '100' 
-        width = '100' 
+        height = '200' 
+        width = '200' 
         alt = 'Icon' 
     />
     <br>
