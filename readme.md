@@ -42,7 +42,7 @@
 ## Using docker-compose to run Dynamic DNS using Cloudflare
 1) Install docker and docker-compose
 2) Create new directory called however you want
-3) Create docker-compose.yml file and paste this inside the file:
+3) Create docker-compose.yml file in the created directory and paste this inside the file:
 ```
 version: '3'
 services:
