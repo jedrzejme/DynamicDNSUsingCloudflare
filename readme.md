@@ -66,7 +66,7 @@ name =
 ttl = 
 proxied = 
 ```
-5) Edit config.ini according to [wiki](https://github.com/jedrzejme/DynamicDNSUsingCloudflare/wiki/Config-File)
+5) Edit config.ini according to [wiki](https://github.com/jedrzejme/DynamicDNSUsingCloudflare/wiki/Config-File) (you don't have to stop docker container, while making some changes in future)
 
 6) Run docker-compose in the same directory:
 ```
