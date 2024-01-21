@@ -17,7 +17,7 @@ time_unit = config.get('main', 'time_unit')
 
 # Define dynamic DNS function
 def ddns():
-        # Import libraries
+    # Import libraries
     import requests
     import json
     from configparser import ConfigParser
@@ -177,6 +177,7 @@ def schedule_job():
 
 # Run dynamic DNS
 if autorun == True:
+    ddns()
     schedule_job()
 else:
     ddns()
