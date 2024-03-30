@@ -11,11 +11,14 @@
 </h1>
 
 <div align = 'center'>
+    <a href = 'https://github.com/jedrzejme/DynamicDNSUsingCloudflare/'>
+        <img src = 'https://img.shields.io/github/stars/jedrzejme/DynamicDNSUsingCloudflare?style=for-the-badge&color=%23cfb002'/>
+    </a>
     <a href = 'https://github.com/jedrzejme/DynamicDNSUsingCloudflare/tags'>
         <img src = 'https://img.shields.io/github/v/tag/jedrzejme/DynamicDNSUsingCloudflare?style=for-the-badge&label=version'/>
     </a>
     <a href = 'https://github.com/jedrzejme/DynamicDNSUsingCloudflare/issues'>
-        <img src = 'https://img.shields.io/github/issues/jedrzejme/DynamicDNSUsingCloudflare?style=for-the-badge'/>
+        <img src = 'https://img.shields.io/github/issues/jedrzejme/DynamicDNSUsingCloudflare?style=for-the-badge&color=%23ff6f00'/>
     </a>
     <a href = 'https://github.com/jedrzejme/DynamicDNSUsingCloudflare/pulls'>
         <img src = 'https://img.shields.io/github/issues-pr/jedrzejme/DynamicDNSUsingCloudflare?style=for-the-badge'/>
