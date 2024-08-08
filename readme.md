@@ -89,4 +89,4 @@ Assigning domain to changing IP address. Changing IP address is commonly occurri
 This project is not created by Cloudflare Inc., but it uses Cloudflare Inc. API to edit DNS zones.
 
 ## Support
-<p><a href="https://www.buymeacoffee.com/jedrzejme"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="jedrzejme" /></a><a href="https://ko-fi.com/jedrzejme"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="jedrzejme" /></a></p><br><br><br>
+<p><a href="https://jedrzej.me/supportme/index" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/jedrzejme/jedrzejme/main/assets/supportme.svg" height="50" width="210" alt="jedrzejme" /></a></p>
