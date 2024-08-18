@@ -54,7 +54,7 @@ git clone https://github.com/jedrzejme/DynamicDNSUsingCloudflare.git
 python -m pip install -r requirements.txt
 ```
 4) Edit config.ini according to [wiki](https://github.com/jedrzejme/DynamicDNSUsingCloudflare/wiki/Config-File) (you don't have to stop docker container, while making some changes in future)
-5) Run Python script
+5) Run main.py:
 ```
 python main.py
 ```
