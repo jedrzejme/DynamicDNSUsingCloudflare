@@ -44,7 +44,7 @@
 * [Git management](https://desktop.github.com/)
 
 ## Using Python to run Dynamic DNS using Cloudflare
-1) Install python and git
+1) Install Python and Git
 2) Clone this repository and enter its directory:
 ```
 git clone https://github.com/jedrzejme/DynamicDNSUsingCloudflare.git
@@ -60,7 +60,7 @@ python main.py
 ```
 
 ## Using docker-compose to run Dynamic DNS using Cloudflare
-1) Install docker and docker-compose
+1) Install Docker and docker-compose
 2) Create new directory called however you want
 3) Create docker-compose.yml file in the created directory and paste this inside the file:
 ```
@@ -95,7 +95,7 @@ docker-compose up -d
 1) It works!
 
 ## Building image by yourself to run Dynamic DNS using Cloudflare
-1) Install docker, docker-compose and git
+1) Install Docker, docker-compose and Git
 2) Clone this repository and enter its directory:
 ```
 git clone https://github.com/jedrzejme/DynamicDNSUsingCloudflare.git
