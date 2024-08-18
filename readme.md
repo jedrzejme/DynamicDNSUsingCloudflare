@@ -27,13 +27,13 @@
 
 <br>
 
-**What is this?** Simple script written in python that allows you to assign domain to changing IP address.
+**❓ What is this?** Simple script written in python that allows you to assign domain to changing IP address.
 
-**How to use it?**
+**❓ How to use it?**
 * [**Using docker-compose**](#using-docker-compose-to-run-dynamic-dns-using-cloudflare)
 * [**Using Python**](#using-python-to-run-dynamic-dns-using-cloudflare)
 
-**What did I use?**
+**❓ What did I use?**
 * [Python](https://www.python.org/)
 * [Python libraries](/requirements.txt)
 * [Docker](https://www.docker.com/)
@@ -43,7 +43,7 @@
 * [Git management](https://desktop.github.com/)
 
 
-## Using docker-compose to run Dynamic DNS using Cloudflare
+## 🐳 Using docker-compose to run Dynamic DNS using Cloudflare
 1) Install Docker, docker-compose and Git
 2) Clone this repository and enter its directory:
 ```
@@ -60,7 +60,7 @@ docker-compose up -d
 ```
 6) It works!
 
-## Using Python to run Dynamic DNS using Cloudflare
+## 🐍 Using Python to run Dynamic DNS using Cloudflare
 1) Install Python and Git
 2) Clone this repository and enter its directory:
 ```
@@ -77,16 +77,16 @@ python main.py
 ```
 6) It works!
 
-## Features
+## 🚀 Features
 * Assigning domain to changing IP address using Cloudflare DNS records
 * Running every now and then defined by user
 * Config file; learn more in the [wiki](https://github.com/jedrzejme/DynamicDNSUsingCloudflare/wiki/Config-File)
 
-## Purpose
+## ❓ Purpose
 Assigning domain to changing IP address. Changing IP address is commonly occurring at home.
 
-## Other informations
+## ❗ Other informations
 This project is not created by Cloudflare Inc., but it uses Cloudflare Inc. API to edit DNS zones.
 
-## Support
+## 💲 Support
 <p><a href="https://support.jedrzej.me/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/jedrzejme/jedrzejme/main/assets/supportme.svg" height="50" width="210" alt="jedrzejme" /></a></p>
