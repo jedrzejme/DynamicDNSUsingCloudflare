@@ -43,7 +43,7 @@
 * [Git management](https://desktop.github.com/)
 
 
-## Using docker-compose to run Your Own Card
+## Using docker-compose to run Dynamic DNS using Cloudflare
 1) Install Docker, docker-compose and Git
 2) Clone this repository and enter its directory:
 ```
