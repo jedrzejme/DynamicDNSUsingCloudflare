@@ -11,8 +11,8 @@ config = ConfigParser()
 # Read config.ini
 config.read('config.ini')
 
-autorun = bool(config.getboolean('main', 'autorun'))
-interval = int(config.getint('main', 'interval'))
+autorun = config.getboolean('main', 'autorun')
+interval = config.getint('main', 'interval')
 time_unit = config.get('main', 'time_unit')
 
 # Define dynamic DNS function
@@ -75,8 +75,8 @@ def ddns():
         "type": "A",  # Change this according to the record type (A, CNAME, etc.)
         "name": f"{name}",  # Replace with your record name
         "content": f"{get_public_ip()}",  # Replace with the new IP address
-        "ttl": f"{ttl}",  # TTL in seconds
-        "proxied": bool(proxied)
+        "ttl": ttl,  # TTL in seconds
+        "proxied": proxied
     }
 
     # Construct the URL for the specific DNS record
@@ -134,8 +134,8 @@ def ddns():
         "type": "A",  # Change this according to the record type (A, CNAME, etc.)
         "name": f"{name}",  # Replace with your record name
         "content": f"{get_public_ip()}",  # Replace with the new IP address
-        "ttl": f"{ttl}",  # TTL in seconds
-        "proxied": bool(proxied)
+        "ttl": ttl,  # TTL in seconds
+        "proxied": proxied
     }
 
     # Construct the URL for the specific DNS record
