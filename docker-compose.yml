@@ -1,0 +1,8 @@
+version: '3'
+services:
+  dynamic-dns-using-cloudflare:
+    image: dynamic-dns-using-cloudflare
+    container_name: dynamic-dns-using-cloudflare
+    volumes:
+      - ./config.ini:/config.ini
+    restart: unless-stopped
