@@ -32,7 +32,7 @@
 **How to use it?**
 * [**Using Python**](#using-python-to-run-dynamic-dns-using-cloudflare)
 * [**Using docker-compose**](#using-docker-compose-to-run-dynamic-dns-using-cloudflare)
-* [**Building image by yourself**](#building-image-by-your-self-to-run-dynamic-dns-using-cloudflare)
+* [**Building image by yourself**](#building-image-by-yourself-to-run-dynamic-dns-using-cloudflare)
 
 **What did I use?**
 * [Python](https://www.python.org/)
