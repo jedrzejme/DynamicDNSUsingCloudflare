@@ -30,8 +30,9 @@
 **What is this?** Simple script written in python that allows you to assign domain to changing IP address.
 
 **How to use it?**
-* **Using Python:** firstly, you need to install [Python](https://www.python.org/downloads/). After that you need to edit config file (paste API key, zone ID, and define other variables whoever you want), then just run python file called "main.py". If you want to run it automatically every now and then - set "autorun" to "True" in "config.ini", if you want to just run it one time - set "autorun" to "False" in "config.ini".
+* [**Using Python**](#using-python-to-run-dynamic-dns-using-cloudflare)
 * [**Using docker-compose**](#using-docker-compose-to-run-dynamic-dns-using-cloudflare)
+* [**Building image by yourself**](#building-image-by-your-self-to-run-dynamic-dns-using-cloudflare)
 
 **What did I use?**
 * [Python](https://www.python.org/)
@@ -41,6 +42,22 @@
 * [Getting IP Address](https://www.ipify.org/)
 * [Coding](https://code.visualstudio.com/)
 * [Git management](https://desktop.github.com/)
+
+## Using Python to run Dynamic DNS using Cloudflare
+1) Install python and git
+2) Clone this repository and enter its directory:
+```
+git clone https://github.com/jedrzejme/DynamicDNSUsingCloudflare.git
+```
+3) Install requirements:
+```
+python -m pip install -r requirements.txt
+```
+4) Edit config.ini according to [wiki](https://github.com/jedrzejme/DynamicDNSUsingCloudflare/wiki/Config-File) (you don't have to stop docker container, while making some changes in future)
+5) Run Python script
+```
+python main.py
+```
 
 ## Using docker-compose to run Dynamic DNS using Cloudflare
 1) Install docker and docker-compose
@@ -54,9 +71,9 @@ services:
     container_name: dynamic-dns-using-cloudflare
     volumes:
       - ./config.ini:/config.ini
-    restart: always
+    restart: unless-stopped
 ```
-4) Create config.ini file in the same directory and paste this inside the file:
+1) Create config.ini file in the same directory and paste this inside the file:
 ```
 [main]
 autorun = 
@@ -69,9 +86,37 @@ name =
 ttl = 
 proxied = 
 ```
-5) Edit config.ini according to [wiki](https://github.com/jedrzejme/DynamicDNSUsingCloudflare/wiki/Config-File) (you don't have to stop docker container, while making some changes in future)
+1) Edit config.ini according to [wiki](https://github.com/jedrzejme/DynamicDNSUsingCloudflare/wiki/Config-File) (you don't have to stop docker container, while making some changes in future)
 
-6) Run docker-compose in the same directory:
+2) Run docker-compose in the same directory:
+```
+docker-compose up -d
+```
+1) It works!
+
+## Building image by yourself to run Dynamic DNS using Cloudflare
+1) Install docker, docker-compose and git
+2) Clone this repository and enter its directory:
+```
+git clone https://github.com/jedrzejme/DynamicDNSUsingCloudflare.git
+```
+3) Create docker image:
+```
+docker build -t dynamic-dns-using-cloudflare .
+```
+4) Create docker-compose.yml file and paste this inside the file:
+```
+version: '3'
+services:
+  dynamic-dns-using-cloudflare:
+    image: dynamic-dns-using-cloudflare
+    container_name: dynamic-dns-using-cloudflare
+    volumes:
+      - ./config.ini:/config.ini
+    restart: unless-stopped
+```
+5) Edit config.ini according to [wiki](https://github.com/jedrzejme/DynamicDNSUsingCloudflare/wiki/Config-File) (you don't have to stop docker container, while making some changes in future)
+6) Run docker-compose:
 ```
 docker-compose up -d
 ```
