@@ -14,8 +14,11 @@
     <a href = 'https://github.com/jbakalarski/DynamicDNSUsingCloudflare'>
         <img src = 'https://img.shields.io/github/stars/jbakalarski/DynamicDNSUsingCloudflare?style=for-the-badge&color=%23cfb002'/>
     </a>
-    <a href = 'https://github.com/jbakalarski/DynamicDNSUsingCloudflare/tags'>
-        <img src = 'https://img.shields.io/github/v/tag/jbakalarski/DynamicDNSUsingCloudflare?style=for-the-badge&label=version'/>
+    <a href='https://hub.docker.com/r/jedrzejme/dynamic-dns-using-cloudflare'>
+        <img src='https://img.shields.io/docker/pulls/jedrzejme/dynamic-dns-using-cloudflare?style=for-the-badge&label=DOCKER%20PULLS'/>
+    </a>
+    <a href='https://github.com/jbakalarski/DynamicDNSUsingCloudflare/tags'>
+        <img src='https://img.shields.io/github/v/tag/jbakalarski/DynamicDNSUsingCloudflare?sort=date&style=for-the-badge&label=VERSION&color=%23db34eb'/>
     </a>
     <a href = 'https://github.com/jbakalarski/DynamicDNSUsingCloudflare/issues'>
         <img src = 'https://img.shields.io/github/issues/jbakalarski/DynamicDNSUsingCloudflare?style=for-the-badge&color=%23ff6f00'/>
